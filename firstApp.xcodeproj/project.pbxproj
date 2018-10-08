@@ -59,7 +59,7 @@
 		29239490215934580089CA0C = {
 			isa = PBXGroup;
 			children = (
-				2923949B215934590089CA0C /* firtsApp */,
+				2923949B215934590089CA0C /* firstApp */,
 				292394B0215934590089CA0C /* firtsAppTests */,
 				2923949A215934590089CA0C /* Products */,
 			);
@@ -74,7 +74,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2923949B215934590089CA0C /* firtsApp */ = {
+		2923949B215934590089CA0C /* firstApp */ = {
 			isa = PBXGroup;
 			children = (
 				2923949C215934590089CA0C /* AppDelegate.swift */,
@@ -84,6 +84,7 @@
 				292394A5215934590089CA0C /* LaunchScreen.storyboard */,
 				292394A8215934590089CA0C /* Info.plist */,
 			);
+			name = firstApp;
 			path = firtsApp;
 			sourceTree = "<group>";
 		};
