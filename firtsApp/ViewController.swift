@@ -20,6 +20,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
         nombreLbl.text = "Hola desconocido";
     }
     
+    @IBAction func setColorBtn(sender: AnyObject) {
+        let redValue = CGFloat(drand48())
+        let greenValue = CGFloat(drand48())
+        let blueValue = CGFloat(drand48())
+        
+        self.view.backgroundColor=UIColor(red: redValue, green: greenValue, blue: blueValue, alpha: 1.0)
+    }
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
