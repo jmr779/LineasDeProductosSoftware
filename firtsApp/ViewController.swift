@@ -14,9 +14,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var nombreLbl: UILabel!
     @IBOutlet weak var nombreTxt: UITextField!
+    @IBOutlet weak var apellidoTxt: UITextField!
     
     @IBAction func setResetBtn(sender: AnyObject) {
-        nombreLbl.text = "Nombre ???";
+        nombreLbl.text = "Hola desconocido";
     }
     
     override func viewDidLoad() {
@@ -36,7 +37,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldDidEndEditing(textField: UITextField) {
-        nombreLbl.text = textField.text
+        nombreLbl.text = "Hola <"+textField.text!+"> <"+apellidoTxt.text!+">";
     }
 
 }
