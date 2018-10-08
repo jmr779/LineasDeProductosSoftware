@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "29239498215934580089CA0C"
-               BuildableName = "firtsApp.app"
-               BlueprintName = "firtsApp"
-               ReferencedContainer = "container:firtsApp.xcodeproj">
+               BuildableName = "firstApp.app"
+               BlueprintName = "firstApp"
+               ReferencedContainer = "container:firstApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "292394AC215934590089CA0C"
-               BuildableName = "firtsAppTests.xctest"
-               BlueprintName = "firtsAppTests"
-               ReferencedContainer = "container:firtsApp.xcodeproj">
+               BuildableName = "firstApp.xctest"
+               BlueprintName = "firstAppTests"
+               ReferencedContainer = "container:firstApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "29239498215934580089CA0C"
-            BuildableName = "firtsApp.app"
-            BlueprintName = "firtsApp"
-            ReferencedContainer = "container:firtsApp.xcodeproj">
+            BuildableName = "firstApp.app"
+            BlueprintName = "firstApp"
+            ReferencedContainer = "container:firstApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "29239498215934580089CA0C"
-            BuildableName = "firtsApp.app"
-            BlueprintName = "firtsApp"
-            ReferencedContainer = "container:firtsApp.xcodeproj">
+            BuildableName = "firstApp.app"
+            BlueprintName = "firstApp"
+            ReferencedContainer = "container:firstApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "29239498215934580089CA0C"
-            BuildableName = "firtsApp.app"
-            BlueprintName = "firtsApp"
-            ReferencedContainer = "container:firtsApp.xcodeproj">
+            BuildableName = "firstApp.app"
+            BlueprintName = "firstApp"
+            ReferencedContainer = "container:firstApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

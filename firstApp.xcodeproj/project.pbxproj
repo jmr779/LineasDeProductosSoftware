@@ -26,14 +26,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		29239499215934590089CA0C /* firtsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firtsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29239499215934590089CA0C /* firstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2923949C215934590089CA0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2923949E215934590089CA0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		292394A1215934590089CA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		292394A3215934590089CA0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		292394A6215934590089CA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		292394A8215934590089CA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		292394AD215934590089CA0C /* firtsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firtsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		292394AD215934590089CA0C /* firstApp.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstApp.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		292394B1215934590089CA0C /* firtsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firtsAppTests.swift; sourceTree = "<group>"; };
 		292394B3215934590089CA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,8 +68,8 @@
 		2923949A215934590089CA0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29239499215934590089CA0C /* firtsApp.app */,
-				292394AD215934590089CA0C /* firtsAppTests.xctest */,
+				29239499215934590089CA0C /* firstApp.app */,
+				292394AD215934590089CA0C /* firstApp.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +99,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		29239498215934580089CA0C /* firtsApp */ = {
+		29239498215934580089CA0C /* firstApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 292394B6215934590089CA0C /* Build configuration list for PBXNativeTarget "firtsApp" */;
+			buildConfigurationList = 292394B6215934590089CA0C /* Build configuration list for PBXNativeTarget "firstApp" */;
 			buildPhases = (
 				29239495215934580089CA0C /* Sources */,
 				29239496215934580089CA0C /* Frameworks */,
@@ -111,14 +111,14 @@
 			);
 			dependencies = (
 			);
-			name = firtsApp;
+			name = firstApp;
 			productName = firtsApp;
-			productReference = 29239499215934590089CA0C /* firtsApp.app */;
+			productReference = 29239499215934590089CA0C /* firstApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		292394AC215934590089CA0C /* firtsAppTests */ = {
+		292394AC215934590089CA0C /* firstAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 292394B9215934590089CA0C /* Build configuration list for PBXNativeTarget "firtsAppTests" */;
+			buildConfigurationList = 292394B9215934590089CA0C /* Build configuration list for PBXNativeTarget "firstAppTests" */;
 			buildPhases = (
 				292394A9215934590089CA0C /* Sources */,
 				292394AA215934590089CA0C /* Frameworks */,
@@ -129,9 +129,9 @@
 			dependencies = (
 				292394AF215934590089CA0C /* PBXTargetDependency */,
 			);
-			name = firtsAppTests;
+			name = firstAppTests;
 			productName = firtsAppTests;
-			productReference = 292394AD215934590089CA0C /* firtsAppTests.xctest */;
+			productReference = 292394AD215934590089CA0C /* firstApp.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 29239494215934580089CA0C /* Build configuration list for PBXProject "firtsApp" */;
+			buildConfigurationList = 29239494215934580089CA0C /* Build configuration list for PBXProject "firstApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -166,8 +166,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29239498215934580089CA0C /* firtsApp */,
-				292394AC215934590089CA0C /* firtsAppTests */,
+				29239498215934580089CA0C /* firstApp */,
+				292394AC215934590089CA0C /* firstAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -215,7 +215,7 @@
 /* Begin PBXTargetDependency section */
 		292394AF215934590089CA0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 29239498215934580089CA0C /* firtsApp */;
+			target = 29239498215934580089CA0C /* firstApp */;
 			targetProxy = 292394AE215934590089CA0C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -330,7 +330,7 @@
 				INFOPLIST_FILE = firtsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ual.es.firtsApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = firstApp;
 			};
 			name = Debug;
 		};
@@ -341,7 +341,7 @@
 				INFOPLIST_FILE = firtsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ual.es.firtsApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = firstApp;
 			};
 			name = Release;
 		};
@@ -352,8 +352,8 @@
 				INFOPLIST_FILE = firtsAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ual.es.firtsAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firtsApp.app/firtsApp";
+				PRODUCT_NAME = firstApp;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firstApp.app/firstApp";
 			};
 			name = Debug;
 		};
@@ -364,15 +364,15 @@
 				INFOPLIST_FILE = firtsAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ual.es.firtsAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firtsApp.app/firtsApp";
+				PRODUCT_NAME = firstApp;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firstApp.app/firstApp";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29239494215934580089CA0C /* Build configuration list for PBXProject "firtsApp" */ = {
+		29239494215934580089CA0C /* Build configuration list for PBXProject "firstApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				292394B4215934590089CA0C /* Debug */,
@@ -381,21 +381,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		292394B6215934590089CA0C /* Build configuration list for PBXNativeTarget "firtsApp" */ = {
+		292394B6215934590089CA0C /* Build configuration list for PBXNativeTarget "firstApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				292394B7215934590089CA0C /* Debug */,
 				292394B8215934590089CA0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		292394B9215934590089CA0C /* Build configuration list for PBXNativeTarget "firtsAppTests" */ = {
+		292394B9215934590089CA0C /* Build configuration list for PBXNativeTarget "firstAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				292394BA215934590089CA0C /* Debug */,
 				292394BB215934590089CA0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
